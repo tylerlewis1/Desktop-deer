@@ -43,7 +43,7 @@ public class deer extends JPanel implements MouseListener, KeyListener{
 		this.addKeyListener(this);
 		this.addMouseListener(this);
 		try {
-			deer = ImageIO.read(getClass().getResourceAsStream("src/deer.png"));
+			deer = ImageIO.read(getClass().getResourceAsStream("deer.png"));
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
