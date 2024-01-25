@@ -4,7 +4,7 @@ import javax.swing.JFrame;
 
 public class Frame {
 
-	public Frame(deer deer){
+	public Frame(Deer deer){
 		JFrame f = new JFrame();
 		f.setSize(Toolkit.getDefaultToolkit().getScreenSize());
 		f.setAlwaysOnTop(true);
@@ -15,5 +15,4 @@ public class Frame {
 		deer.setOpaque(false);
 		f.setVisible(true);
 	}
-
 }
